@@ -8,7 +8,7 @@ import sqlite3
 from pathlib import Path
 from collections import Counter
 
-DATA_DIR = Path("data/minidev")   # the folder you extracted the dataset into
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"   # the folder you extracted the dataset into
 
 # Find the files no matter how deeply they're nested
 question_file = next(DATA_DIR.rglob("mini_dev_sqlite.json"))
