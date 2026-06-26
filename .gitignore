@@ -1,0 +1,100 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.eggs/
+
+# Virtual environment
+venv/
+.venv/
+ENV/
+env/
+
+# Distribution / packaging
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyright
+pyrightconfig.json
+
+# === Project-specific ===
+
+# Secrets — never commit API keys or tokens
+.env
+.env.*
+secrets.json
+
+# Datasets — too large for git; download separately
+data/
+
+# Reference papers and source documents — too large for git
+docs/
+
+# Cached agent trajectories — generated on Colab, synced separately
+trajectories/
+
+# Thesis text and skill templates — kept local, not version-controlled here
+thesis/
+skills/
+
+# Databases (SQLite used for BIRD execution)
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary results
+results/*.tmp
+
+# Energy tracking (codecarbon)
+emissions.csv
+codecarbon_output/
+
+# === Claude Code ===
+CLAUDE.md
+.claude/
+
+# === OS / IDE ===
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo

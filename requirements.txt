@@ -1,0 +1,3 @@
+# Dependencies will be pinned here during Step 3 (Python environment setup).
+# Run: pip install -r requirements.txt
+# After installation, pin versions with: pip freeze > requirements.txt
